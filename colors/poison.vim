@@ -111,7 +111,7 @@ if &background == "dark"
     hi Cursor         ctermbg=160  ctermfg=231
     hi CursorLineNr   ctermbg=148  ctermfg=238 cterm=bold       " Changed
     hi MatchParen     ctermbg=112  ctermfg=234
-    hi Visual         ctermbg=27   ctermfb=254                  " Changed
+    hi Visual         ctermbg=27   ctermfg=254                  " Changed
     hi VisualNOS      ctermbg=239
     hi Pmenu          ctermbg=236  ctermfg=249
     hi PmenuSel       ctermbg=148  ctermfg=235
