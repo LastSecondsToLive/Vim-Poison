@@ -1,4 +1,4 @@
-" Originial by Arthur Jaron refinded by Matthias H.
+" Original by Arthur Jaron refinded by Matthias H.
 
 " Settings
 if !exists('g:poison_recolor_quickfixsigns')
@@ -99,9 +99,9 @@ if &background == "dark"
     hi SpellCap       ctermbg=none ctermfg=33  cterm=undercurl
     hi SpellLocal     ctermbg=none ctermfg=51  cterm=undercurl
     hi SpellRare      ctermbg=none ctermfg=205 cterm=undercurl
-    hi Search         ctermbg=148  ctermfg=16  cterm=bold
-    hi IncSearch      ctermbg=16   ctermfg=220 cterm=reverse
-    hi Error          ctermbg=52   ctermfg=217 cterm=underline
+    hi Search         ctermbg=148  ctermfg=236 cterm=bold       " Changed
+    hi IncSearch      ctermbg=220  ctermfg=16  cterm=none       " Changed
+    hi Error          ctermbg=160  ctermfg=224 cterm=underline  " Changed
     hi ErrorMsg       ctermbg=88   ctermfg=224 cterm=bold
     hi WarningMsg                  ctermfg=221
     hi WildMenu       ctermbg=148  ctermfg=16
@@ -109,9 +109,9 @@ if &background == "dark"
     hi MoreMsg        ctermbg=148  ctermfg=16
     hi ModeMsg        ctermbg=148  ctermfg=16  cterm=bold
     hi Cursor         ctermbg=160  ctermfg=231
-    hi CursorLineNr   ctermbg=52   ctermfg=252 cterm=bold
+    hi CursorLineNr   ctermbg=148  ctermfg=238 cterm=bold       " Changed
     hi MatchParen     ctermbg=112  ctermfg=234
-    hi Visual         ctermbg=24
+    hi Visual         ctermbg=27   ctermfb=254                  " Changed
     hi VisualNOS      ctermbg=239
     hi Pmenu          ctermbg=236  ctermfg=249
     hi PmenuSel       ctermbg=148  ctermfg=235
@@ -128,12 +128,8 @@ if &background == "dark"
     hi TabLine        ctermbg=22   ctermfg=148 cterm=none
     hi TabLineSel     ctermbg=148  ctermfg=22  cterm=none
     hi TabLineFill    ctermbg=247  ctermfg=236 cterm=none
-    hi PythonOperator              ctermfg=110
-    hi pythonDocstring             ctermfg=67
-    hi pythonDoctest               ctermfg=97
     hi javaScript                  ctermfg=151
     hi DjangoBlock                 ctermfg=35  cterm=none
-    hi CtrlPMatch     ctermfg=16   ctermbg=220
     set background=dark
   endif
 endif 
