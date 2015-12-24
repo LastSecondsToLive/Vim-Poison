@@ -123,7 +123,7 @@ if &background == "dark"
     hi LineNr         ctermbg=236  ctermfg=244
     hi StatusLine     ctermbg=235  ctermfg=230 cterm=NONE term=NONE
     hi StatusLineNC   ctermbg=236  ctermfg=244 cterm=NONE term=NONE
-    hi VertSplit      ctermbg=235  ctermfg=234
+    hi VertSplit      ctermbg=148  ctermfg=236
     hi Title                       ctermfg=252 cterm=bold
     hi TabLine        ctermbg=22   ctermfg=148 cterm=none
     hi TabLineSel     ctermbg=148  ctermfg=22  cterm=none
