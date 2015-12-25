@@ -1,7 +1,7 @@
 "
 " Colorscheme: Poison
-" Matthias Hericks (Edit of 'Kalisi' by Arthur Jaron)
-" matthias.hericks@gmail.com
+" Matthias H. (Edit of 'Kalisi' by Arthur Jaron)
+" lastsecondstolive@gmail.com
 " 24.12.2015
 "
  
